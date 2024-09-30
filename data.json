@@ -1,0 +1,9 @@
+{
+  "pomodoroFolder": "pomodoro",
+  "focusSlogan": "专注中",
+  "relaxSlogan": "休息中",
+  "keepTime": 1,
+  "relaxTime": 0,
+  "calendarpath": "日历",
+  "dateformat": "YYYY-MM-DD"
+}

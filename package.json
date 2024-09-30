@@ -1,0 +1,38 @@
+{
+	"name": "Pomodoro-calendar",
+	"version": "1.0.0",
+	"description": "一个简易的番茄时钟",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs --watch",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"chart.js": "^4.4.4",
+		"i": "^0.3.7",
+		"luxon": "^3.4.3",
+		"Pomodoro-calendar": "file:",
+		"Pomodoro-typescript": "^1.6.10",
+		"sass": "^1.66.1",
+		"vue": "^3.2.31"
+	},
+	"devDependencies": {
+		"@the_tree/esbuild-plugin-vue3": "^0.3.1",
+		"@types/node": "^16.11.6",
+		"@typescript-eslint/eslint-plugin": "^5.2.0",
+		"@typescript-eslint/parser": "^5.2.0",
+		"builtin-modules": "^3.2.0",
+		"esbuild": "^0.14.49",
+		"esbuild-plugin-copy": "^2.1.1",
+		"esbuild-plugin-url": "^0.0.1",
+		"file-loader": "^6.2.0",
+		"hash-sum": "^2.0.0",
+		"obsidian": "latest",
+		"tslib": "2.3.1",
+		"typescript": "4.4.4"
+	}
+}

@@ -1,0 +1,11 @@
+.theme-light {
+	--bg-div: #e4dfdf;
+	--text-color-light: hsl(0, 0%, 20%); /* 浅色模式下的文字颜色 */
+
+
+}
+
+.theme-dark {
+	--bg-div: #3c669a;
+	--text-color-dark: hsl(0, 0%, 90%); /* 深色模式下的文字颜色 */
+}
