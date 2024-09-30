@@ -2,7 +2,7 @@
 	"id": "lucky-pomodoro-timer",
 	"name": "Lucky Pomodoro Timer",
 	"version": "1.0.0",
-	"minAppVersion": "0.1.0",
+	"minAppVersion": "1.0.0",
 	"description": "Pomodoro Timer,  Track Focus Duration",
 	"author": "Alex",
 	"authorUrl": "https://github.com/wql6/lucky-pomodoro-timer",
